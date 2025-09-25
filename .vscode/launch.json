@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug STM32L0",
+      "cwd": "${workspaceRoot}",
+      "executable": "${workspaceRoot}/build/stm32_project.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "device": "STM32L053xx",
+      "configFiles": [
+        "D:/msys/mingw64/share/openocd/scripts/interface/stlink.cfg",
+        "D:/msys/mingw64/share/openocd/scripts/target/stm32l0.cfg"
+      ],
+      "runToEntryPoint": "main",
+      "svdFile": "${workspaceRoot}/STM32L0.svd"
+    }
+  ]
+}
