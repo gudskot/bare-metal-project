@@ -18,6 +18,7 @@ A simple bare-metal project for STM32L053R8 that toggles an LED without using HA
 - src/        # Source files (main.c, system_stm32l0xx.c)
 - include/    # Header files (defines, prototypes)
 - linker/     # Linker scripts (MCU memory description)
+- startup/    # Vector table
 - Makefile    # Build system: describes how to compile and link
 - README.md   # Project documentation
 
