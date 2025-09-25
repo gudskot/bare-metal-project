@@ -19,6 +19,7 @@ A simple bare-metal project for STM32L053R8 that toggles an LED without using HA
 - include/    # Header files (defines, prototypes)
 - linker/     # Linker scripts (MCU memory description)
 - Makefile    # Build system: describes how to compile and link
+- README.md   # Project documentation
 
 ## How it works
 GPIOA0/1 is configured as output, and in the infinite loop it toggles (LED on/off) with a delay.
