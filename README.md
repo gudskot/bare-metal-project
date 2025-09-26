@@ -29,3 +29,6 @@ GPIOA0/1 is configured as output, and in the infinite loop it toggles (LED on/of
 ```bash
 make        # build
 make st-flash  # flash via ST-Link
+```
+## Screen
+https://github.com/user-attachments/assets/49d096aa-a243-484d-a610-6a9d2678fb62
